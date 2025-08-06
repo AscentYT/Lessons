@@ -1,0 +1,72 @@
+{
+	"name": "Lesson name",
+	"description": "Lesson description",
+	"modules": [
+		{
+			"id": "module1",
+			"type": "video",
+			"title": "Introduction Video",
+			"data": {
+				"path": "https://example.com/video.mp4",
+				"transcript": "transcripts/module1-transcript.md"
+			}
+		},
+		{
+			"id": "module2",
+			"type": "text",
+			"title": "Reading Material",
+			"data": {
+				"content": ""
+			}
+		},
+		{
+			"id": "module3",
+			"type": "quiz",
+			"title": "Quiz 1",
+			"data": {
+				"questions": [
+					{
+						"prompt": "Which of the following is used to calculate the gradient during backpropogation?",
+						"answerChoices": [
+							"Vectors",
+							"Matrices",
+							"Partial derivatives",
+							"Cross validation"
+						],
+						"correctAnswerChoiceIndex": 2
+					},
+					{
+						"prompt": "What is the purpose of the activation function in a neural network?",
+						"answerChoices": [
+							"To normalize the input data",
+							"To introduce non-linearity",
+							"To reduce the learning rate",
+							"To initialize weights"
+						],
+						"correctAnswerChoiceIndex": 1
+					},
+					{
+						"prompt": "Which loss function is most commonly used for binary classification problems?",
+						"answerChoices": [
+							"Mean Squared Error",
+							"Categorical Crossentropy",
+							"Binary Crossentropy",
+							"Hinge Loss"
+						],
+						"correctAnswerChoiceIndex": 2
+					},
+					{
+						"prompt": "What does the learning rate in gradient descent control?",
+						"answerChoices": [
+							"The number of hidden layers",
+							"The speed at which the model learns",
+							"The number of training epochs",
+							"The size of the training data"
+						],
+						"correctAnswerChoiceIndex": 1
+					}
+				]
+			}
+		}
+	]
+}
