@@ -5,7 +5,7 @@
 		{
 			"id": "module1",
 			"type": "video",
-			"title": "Introduction Video",
+			"name": "Introduction Video",
 			"data": {
 				"path": "https://example.com/video.mp4",
 				"transcript": "transcripts/module1-transcript.md"
@@ -14,7 +14,7 @@
 		{
 			"id": "module2",
 			"type": "text",
-			"title": "Reading Material",
+			"name": "Reading Material",
 			"data": {
 				"content": ""
 			}
@@ -22,7 +22,7 @@
 		{
 			"id": "module3",
 			"type": "quiz",
-			"title": "Quiz 1",
+			"name": "Quiz 1",
 			"data": {
 				"questions": [
 					{
