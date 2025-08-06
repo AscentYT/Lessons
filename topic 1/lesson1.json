@@ -6,6 +6,7 @@
 			"id": "module1",
 			"type": "video",
 			"name": "Introduction Video",
+			"description": "Lesson description",
 			"data": {
 				"path": "https://example.com/video.mp4",
 				"transcript": "transcripts/module1-transcript.md"
@@ -15,6 +16,7 @@
 			"id": "module2",
 			"type": "text",
 			"name": "Reading Material",
+			"description": "Lesson description",
 			"data": {
 				"content": ""
 			}
@@ -23,6 +25,7 @@
 			"id": "module3",
 			"type": "quiz",
 			"name": "Quiz 1",
+			"description": "Lesson description",
 			"data": {
 				"questions": [
 					{
