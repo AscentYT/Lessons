@@ -88,9 +88,7 @@
             "type": "text",
             "name": "Reading Material",
             "description": "Lesson description",
-            "data": {
-                "content": ""
-            }
+            "data": {}
         },
         {
             "id": "module3",
